@@ -1,0 +1,105 @@
+
+.navigation-wrapperr{
+    height: 380px;
+    background-color: #11122b;
+    color:#cbcbcb;
+    /*Flexbox container*/
+    display: grid;
+    
+    align-items: center;
+    padding:10px 100px;
+    justify-content: center;
+    /*padding-top: 60px;*/
+}
+/* left column styles*/
+.navigation-wrapperr> .primera-column{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+    .navigation-wrapperr> .primera-column> .icon {
+        margin-right: 15px;
+    }
+    
+    .navigation-wrapperr> .primera-column> .icon i {
+        font-size: 1em;
+    }
+    .navigation-wrapperr> .primera-column > .contact-hours-wrapper{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+.navigation-wrapperr> .primera-column > .contact-hours-wrapper> .hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:#cea135;
+    font-size: 0.8em;
+}
+.links-wrapperr>.nav-link a {    
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+}
+
+/*center column styles*/
+.navigation-wrapperr> .segunda-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+.navigation-wrapperr> .banner-image {  
+    display: flex;
+    justify-content: center;
+}
+.navigation-wrapperr> .banner-image img{  
+    width: 180px;
+    height: 100%;
+    opacity: 0.5;
+    filter: brightness(80%);
+}
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-wrapper> .nav-link  {
+    width: 70px;
+    text-align: center;
+}
+.links-wrapper> .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links-wrapper> .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+/* right column styles*/
+.navigation-wrapperr> .tercera-column  {
+    margin-top: 70px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 15px;
+}
+.navigation-wrapperr> .tercera-column> .contact-icon{
+    margin-left: 15px;
+    font-size: 2em;
+}
+.navigation-wrapperr> .tercera-column> .contact-icon a{
+    color:#cbcbcb;
+    transition: 0.5s;
+}
+.navigation-wrapperr> .tercera-column> .contact-icon a:hover{
+    color:#cea135;
+    
+}
+.copy{
+    text-align: center;
+}
